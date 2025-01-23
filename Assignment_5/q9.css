@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .pricing-table {
+    display: flex;
+  }
+  
+  .plan {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .plan.popular {
+    background-color: #f0f0f0; 
+  }
+  
+  .plan h2 {
+    margin-bottom: 20px;
+  }
+  
+  .plan .price {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .plan ul li {
+    margin-bottom: 10px;
+  }
+  
+  .plan button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .plan button:hover {
+    background-color: #45a049;
+  }

@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  /* Sticky Navigation Bar */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a.active {
+    background-color: #4CAF50;
+  }
+  
+  /* Section Styling */
+  section {
+    padding-top: 50px; /* Adjust for navbar height */
+    margin-top: 50px; /* Adjust for navbar height */
+  }

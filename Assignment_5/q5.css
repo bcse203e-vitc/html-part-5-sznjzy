@@ -1,0 +1,24 @@
+div{
+    display: inline-block;
+}
+.Button{
+    padding: 10px 15px;
+    margin: 10px;
+}
+#a{
+    background-image: linear-gradient(red,orange,yellow);
+}
+#b{
+    background-color:bisque;
+    border:3px solid  black;
+    border-radius: 25px;
+}
+#b:hover{
+    border-color: aqua;
+    border-radius: 25px;
+}
+#c{
+    background-color:blueviolet;
+    box-shadow: 0 0 50px rgba(255, 0, 0, 0.5); 
+
+}
